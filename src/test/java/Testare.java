@@ -25,7 +25,7 @@ class Testare {
         {
             System.out.println(e.getMessage());
         }
-        assertEquals("+x^5+2x^3-2x+2", operatii.add(a,b).toString());
+        assertEquals("+x^5+2x^3-2x+2",( operatii.add(a,b)).toString());
     }
 
     @Test
